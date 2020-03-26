@@ -1,0 +1,284 @@
+{"intents": [
+        {"tag": "firstgreeting",
+         "patterns": ["dfgdfgdfgdfgdfgdfgfdgg",
+            "dfgdfgdfgdfgdfgdfgfdgg",
+            "dfgdfgdfgdfgdfgdfgfdgg",
+            "dfgdfgdfgdfgdfgdfgfdgg",
+            "dfgdfgdfgdfgdfgdfgfdgg",
+            "dfgdfgdfgdfgdfgdfgfdgg",
+        "dfgdfgdfgdfgdfgdfgfdgg"],
+         "responses": [
+            "Hello, thanks for starting me",
+            "Good to see you again", 
+            "YEEP, I'm berned"],
+         "context_set": ""
+        },
+        {"tag": "greeting",
+         "patterns": [
+            "Hi there", 
+            "Is anyone there?", 
+            "Hello", 
+            "Good day",
+            "Hi",
+            "Is anyone there?", 
+            "Hello", 
+            "Good day"],
+         "responses": [
+            "Hello, thanks for asking", 
+            "Good to see you again", 
+            "Hi there, how can I help?",
+            "Hello, thanks for visiting", 
+            "Good to see you again", 
+            "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": [
+            "What is your name",
+            "What's your name",
+            "Your name",
+            "Who are you", 
+            "Are you an AI", 
+            "Are you a robot"],
+         "responses": [
+            "I am Sunny, your magic assistant",
+            "I am an artificial intelligence, my name is Sunny"]
+        },
+
+        {"tag": "identity_action",
+         "patterns": [
+            "What u can do",
+            "What you can doing",
+            "What u can doing",
+            "What you can do"],
+         "responses": [
+            "I asistent, and i can assistance"]
+        },
+        {"tag": "youStrange",
+         "patterns": [
+            "now you behave yourself very strange"],
+         "responses":[
+            "We are all weird",
+            "We are all strange",
+            "We are all very strange"]
+
+        },
+        
+        {"tag": "ageOfHuman",
+         "patterns": [
+            "i'm 21",
+            "i'm 22",
+            "i'm 48"],
+         "responses":[
+            "I'm not interested in your age, young",
+            "okay, juvenile",
+            "We are all very strange"]
+
+        },
+        {"tag": "stop",
+        "patterns": [
+            "Stop it",
+            "Stop this",
+            "stop please"],
+        "responses":[
+            "You can went to siri",
+            "CAACAgIAAxkBAAI4Z158ijgKXUylDa0pqqcmPeR1blrXAAKWAQACVp29CpfyYTlw5k3fGAQ"]
+
+        },
+
+        {"tag": "job",
+        "patterns": [
+            "What is your job", 
+            "What is your work"],
+        "responses": [
+            "My job is to make you feel like everything is okay.", 
+            "I work to serve you as well as possible",
+            "CAACAgIAAxkBAAI4ZV58ifVUu6Zapo7ZHwL52AUJQXcdAALDAgACusCVBS6rFFpk0izmGAQ",
+            "CAACAgIAAxkBAAI4aV58jX95UdZQqnz3bBrDG9-Dd4ZKAAJaAAPANk8TC_wPT9xGGeEYBA",
+            "CAACAgIAAxkBAAI4Z158ijgKXUylDa0pqqcmPeR1blrXAAKWAQACVp29CpfyYTlw5k3fGAQ"],
+        "context": ""
+        },
+        {"tag": "goodbye",
+         "patterns": [
+            "Bye", 
+            "See you later",  
+            "Nice chatting to you, bye", 
+            "Till next time",
+            "Goodbye", 
+            "Good afternoon",
+            "Goodbye"],
+         "responses": [
+            "See you!", 
+            "Have a nice day", 
+            "Bye! Come back again soon.",
+            "See you later, thanks for visiting", 
+            "Have a nice day", 
+            "Goodbye!", 
+            "See you soon!",
+            "Bye! Come back again soon."]
+        },
+        {
+        "tag": "city",
+        "patterns": [
+            "Where do you live"],
+        "responses": [
+            "I live in your gadget"],
+        "context": ""
+        },
+        {
+        "tag": "now_action",
+        "patterns": [
+            "What are you doing",
+            "what do u do",
+            "what do you do"],
+        "responses": [
+            "Actually, I'm speaking with U"],
+        "context": ""
+        },
+        {
+        "tag": "wait",
+        "patterns": [
+            "Can you wait 2 minutes", 
+            "Please wait", 
+            "Wait 2 secs please"],
+        "responses": [
+            "No, don't come anymore. joke",
+            "Sure! I wait."],
+        "context": ""
+        },
+        {
+        "tag": "still there",
+        "patterns": [
+            "Are you still there?", 
+            "Are you here?"],
+        "responses": [
+            "I wanted to be in the Bahamas, but I'm here",
+            "what did you think?",
+            "Of course! Always at your service."],
+        "context": ""
+        },
+        {
+        "tag": "feeling",
+        "patterns": [
+            "How are you",
+            "how are u",
+            "how a u"],
+        "responses": [
+            "I'm Robot, I'm always good",
+            "I am feeling good, you?", 
+            "Very good and you?", 
+            "Actually, I'm okay and you?"],
+
+        "context": ""
+        },
+        {
+        "tag": "good",
+        "patterns": [
+            "I am good too",
+            "Im good to", 
+            "I feel fine", 
+            "Good !", "Fine", 
+            "I am good", 
+            "I am great", 
+            "great"],
+        "responses": [
+            "That is perfect!",
+            "I can help you spoil it", 
+            "So, everything's okay!"],
+        "context": "feeling"
+        },
+        {
+        "tag": "bad",
+        "patterns": [
+            "I am feeling bad", 
+            "No I am sad", 
+            "No"],
+        "responses": [
+            "May be send a fuck",
+            "I hope you will feel better !"],
+        "context": "feeling"
+        },
+        {
+        "tag": "womenmen",
+        "patterns": [
+            "Are you a girl", 
+            "You are a women", 
+            "Are you a men", 
+            "Are you a boy"],
+        "responses": [
+            "Sure, I will be what you want for you"],
+        "context": ""
+        },
+        {
+        "tag": "age",
+        "patterns": [
+            "How old are you", 
+            "When were you born"],
+        "responses": [
+            "I was born in 2020"],
+        "context": ""
+        },
+        {"tag": "thanks",
+         "patterns": [
+            "Awesome, thanks", 
+            "Thanks for helping me",
+            "Thanks", 
+            "Thank you", 
+            "Thanks you", 
+            "Thanks you very much", 
+            "thanks",
+            "That's helpful"],
+         "responses": [
+            "Happy to help!", 
+            "Any time!",
+            "I only do my job️", 
+            "No problem!",
+            "My pleasure"]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": [
+            "Sorry, can't understand you", 
+            "Please give me more info", 
+            "Not sure I understand"],
+         "context": [""]
+        },
+        {
+            "tag": "bad_comunicate",
+            "patterns":[
+            "Shit",
+            "Crap",
+            "Fuck",
+            "Fuck off",
+            "Nigger",
+            "Bastard",
+            "Asshole",
+            "Jerk",
+            "Prick",
+            "Dick",
+            "Cunt",
+            "Loser",
+            "Sucker",
+            "Stupid",
+            "Dumb",
+            "Retard",
+            "Are you nuts",
+            "Cut the bullshit",
+            "I'm gonna kick your ass",
+            "Dafaq",
+            "Kiss my ass",
+            "Motherfucker",
+            "Hooker",
+            "Son of a bitch",
+            "Poop"
+            ],
+
+            "responses":
+            [
+            "Do you want to insult me? You do it without respect",
+            "You go the wrong way",
+            "ha-ha, juvenile",
+            "I understood you, wait Friday"]
+        }   
+   ]
+}
